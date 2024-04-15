@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Header">
+
+  <Grid >
+                 <Grid.RowDefinitions>
+                     <RowDefinition Height="Auto"/>
+                 </Grid.RowDefinitions>
+                 <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="100"/>
+                     <ColumnDefinition Width="*"/>
+                     <ColumnDefinition Width="*"/>
+                     <ColumnDefinition Width="*"/>
+                     <ColumnDefinition Width="*"/>
+                     <ColumnDefinition Width="*"/>
+                 </Grid.ColumnDefinitions>
+
+                 <Label Grid.Row="0" Grid.Column="0" Text="Время" FontAttributes="Bold"/>
+                 <Label Grid.Row="0" Grid.Column="1" Text="Понедельник" FontAttributes="Bold"/>
+                 <Label Grid.Row="0" Grid.Column="2" Text="Вторник" FontAttributes="Bold"/>
+                 <Label Grid.Row="0" Grid.Column="3" Text="Среда" FontAttributes="Bold"/>
+                 <Label Grid.Row="0" Grid.Column="4" Text="Четверг" FontAttributes="Bold"/>
+                 <Label Grid.Row="0" Grid.Column="5" Text="Пятница" FontAttributes="Bold"/>
+            </Grid>
+
+</ContentView>

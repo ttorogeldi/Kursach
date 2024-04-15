@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mauiApp2="clr-namespace:MauiApp2"
+             x:Class="MauiApp2.MainPage">
+
+    <StackLayout Margin="20">
+        <Picker x:Name="GroupPicker" Title="Select Group" SelectedIndexChanged="OnGroupSelectedIndexChanged">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Group 1</x:String>
+                    <x:String>Group 2</x:String>
+                    <x:String>Group 3</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <ScrollView>
+            <StackLayout x:Name="LessonsStackLayout" Spacing="10" Padding="5"> <!-- Set Padding here -->
+                <!-- Lessons -->
+                <mauiApp2:Header />
+                <mauiApp2:Lesson Item="{Binding _selectedGroupLessons[0]}" Text="08:00 - 09:20" Margin="0,0,0,10"/>
+                <mauiApp2:Lesson Item="{Binding _selectedGroupLessons[1]}" Text="09:20 - 10:40" Margin="0,0,0,10"/> <!-- Adjust Margin here -->
+                <mauiApp2:Lesson Item="{Binding _selectedGroupLessons[2]}" Text="10:40 - 12:00" Margin="0,0,0,10"/> <!-- Adjust Margin here -->
+                <mauiApp2:Lesson Item="{Binding _selectedGroupLessons[3]}" Text="12:00 - 13:20" Margin="0,0,0,10"/> <!-- Adjust Margin here -->
+                <mauiApp2:Lesson Item="{Binding _selectedGroupLessons[4]}" Text="13:20 - 14:40" Margin="0,0,0,10"/> <!-- Adjust Margin here -->
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
