@@ -1034,3 +1034,4 @@ C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-android\sta
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-android\MauiApp2.sourcelink.json

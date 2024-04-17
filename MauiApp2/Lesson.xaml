@@ -6,6 +6,9 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
@@ -18,27 +21,302 @@
 
         <Label Grid.Row="0" Grid.Column="0" Text="{Binding Text}"/>
         <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Vertical">
-            <Picker  WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" SelectedItem="{Binding SelectedItem}" />
-            <Picker WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].TeacherOptions}"  />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Monday.First.Subject}"
+                />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Monday.First.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
         </StackLayout>
         <StackLayout Grid.Row="0" Grid.Column="2" Orientation="Vertical">
-            <Picker  WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" SelectedItem="{Binding SelectedItem}" />
-            <Picker WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" SelectedIndex="1" />
-
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.First.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.First.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
         </StackLayout>
         <StackLayout Grid.Row="0" Grid.Column="3" Orientation="Vertical">
-            <Picker  WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" SelectedItem="{Binding SelectedItem}" />
-            <Picker WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" SelectedIndex="1" />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.First.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.First.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
         </StackLayout>
         <StackLayout Grid.Row="0" Grid.Column="4" Orientation="Vertical">
-            <Picker  WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" SelectedIndex="1" />
-            <Picker WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" SelectedIndex="1" />
-
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.First.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.First.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
         </StackLayout>
         <StackLayout Grid.Row="0" Grid.Column="5" Orientation="Vertical">
-            <Picker  WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" SelectedIndex="1" />
-            <Picker WidthRequest="200" ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" SelectedIndex="1" />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Friday.First.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Friday.First.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
         </StackLayout>
+        
+        <Label Grid.Row="1" Grid.Column="0" Text="09:20 - 10:40"/>
+        <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Second.Subject}"
+                />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Second.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="2" Orientation="Vertical">
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Second.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Second.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="3" Orientation="Vertical">
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Second.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Second.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="4" Orientation="Vertical">
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Second.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Second.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
+        </StackLayout>
+        <StackLayout Grid.Row="1" Grid.Column="5" Orientation="Vertical">
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+                SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+                SelectedItem="{Binding SelectedItem}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Second.Subject}"
+            />
+            <Picker 
+                WidthRequest="200" 
+                ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+                SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Second.Teacher}"
+                SelectedItem="{Binding SelectedItem}" />
+        </StackLayout>
+        
+        
+        
+        <Label Grid.Row="2" Grid.Column="0" Text="09:20 - 10:40"/>
+<StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Third.Subject}"
+        />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="2" Grid.Column="2" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="2" Grid.Column="3" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="2" Grid.Column="4" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="2" Grid.Column="5" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+        <StackLayout Grid.Row="3" Grid.Column="1" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Third.Subject}"
+        />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Monday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="3" Grid.Column="2" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Tuesday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="3" Grid.Column="3" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Wednesday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="3" Grid.Column="4" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Thursday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+<StackLayout Grid.Row="3" Grid.Column="5" Orientation="Vertical">
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].SubjectOptions}" 
+        SelectedIndexChanged="OnGroupSelectedIndexChanged" 
+        SelectedItem="{Binding SelectedItem}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Third.Subject}"
+    />
+    <Picker 
+        WidthRequest="200" 
+        ItemsSource="{Binding LessonsOptions[0].TeacherOptions}" 
+        SelectedIndex="{Binding SelectedLessonItem.Current.Friday.Third.Teacher}"
+        SelectedItem="{Binding SelectedItem}" />
+</StackLayout>
+
+
     </Grid>
 
 </ContentView>
