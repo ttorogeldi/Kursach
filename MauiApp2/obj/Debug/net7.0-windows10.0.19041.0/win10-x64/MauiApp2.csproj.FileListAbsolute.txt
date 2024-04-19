@@ -32,6 +32,10 @@ C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Popup.dll
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\en-US\Syncfusion.Maui.Popup.resources.dll
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
@@ -299,6 +303,7 @@ C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.AssemblyInfoInputs.cache
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.AssemblyInfo.cs
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.csproj.CoreCompileInputs.cache
+C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.sourcelink.json
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.csproj.Up2Date
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.dll
@@ -322,4 +327,3 @@ C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\ttologonov\RiderProjects\MauiApp2\MauiApp2\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp2.sourcelink.json

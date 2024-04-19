@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oaxtdmq29PuZQQc/2irLYsGYp71pKlu+oWJtRCyWh55F//luaIql2lG4jDhvB/w+26mcg6bMVAPIsoqEwEqS6g==",
+  "dgSpecHash": "+m8tGbcR8EUsOZZh0fsxsmj4T2ETPK6YwneNpW8YwQLxHnD9NOOTSci+1DlQacUmlNjHmT61Xf0yz10hcrO1KA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ttologonov\\RiderProjects\\MauiApp2\\MauiApp2\\MauiApp2.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,9 @@
     "C:\\Users\\ttologonov\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\ttologonov\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\ttologonov\\.nuget\\packages\\syncfusion.licensing\\25.1.40\\syncfusion.licensing.25.1.40.nupkg.sha512",
+    "C:\\Users\\ttologonov\\.nuget\\packages\\syncfusion.maui.core\\25.1.40\\syncfusion.maui.core.25.1.40.nupkg.sha512",
+    "C:\\Users\\ttologonov\\.nuget\\packages\\syncfusion.maui.popup\\25.1.40\\syncfusion.maui.popup.25.1.40.nupkg.sha512",
     "C:\\Users\\ttologonov\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\ttologonov\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\ttologonov\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

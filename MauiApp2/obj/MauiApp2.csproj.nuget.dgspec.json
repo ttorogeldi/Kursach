@@ -105,6 +105,10 @@
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
             },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[25.1.40, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -275,6 +279,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[25.1.40, )"
             }
           },
           "imports": [
@@ -379,6 +387,10 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[25.1.40, )"
             }
           },
           "imports": [
@@ -482,6 +494,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Popup": {
+              "target": "Package",
+              "version": "[25.1.40, )"
             }
           },
           "imports": [

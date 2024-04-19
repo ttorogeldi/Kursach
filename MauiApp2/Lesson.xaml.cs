@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using Microsoft.Maui.Controls;
+using Syncfusion.Maui.Popup;
 
 namespace MauiApp2
 {
@@ -16,17 +17,17 @@ namespace MauiApp2
             set => SetValue(SelectedLessonItemProperty, value);
         }  
         
-
         public Lesson()
         {
             InitializeComponent();
+
             LessonsOptions = new List<LessonOptions>
             {
                 new()
                 {
                     SubjectOptions = new List<string>
                     {
-                        "Select Subject", 
+                        "Выберите предмет", 
                         "Введение в программную инженерию",
                         "Информационные системы в экономике ", 
                         "Информационная безопасность",
@@ -41,7 +42,7 @@ namespace MauiApp2
                         "Компьютерные сети и системы"
                     },
                     TeacherOptions = new List<string> { 
-                        "Select Teacher",
+                        "Выберите препода",
                         "Омуров Максат Таалайбекович", 
                         "Эралиев Жээнбек Торонович", 
                         "Бегалиев Самыйбек Алтынбекович", 
@@ -79,10 +80,35 @@ namespace MauiApp2
         {
             var picker = (Picker)sender;
             var selectedGroup = picker.SelectedItem.ToString();
+            string pickerName = picker.ClassId;
 
+            var count = 0;
+            switch (pickerName)
+            {
+                case "Monday_First":
+                    count = SelectedLessonItem.Other
+                        .Count(x => x.Monday.First.Subject == SelectedLessonItem.Current.Monday.First.Subject);
+                    if (count > 0)
+                    {
+                    }
+                    break;
+                case "Monday_Second":
+                    count = SelectedLessonItem.Other
+                        .Count(x => x.Monday.First.Subject == SelectedLessonItem.Current.Monday.First.Subject);
+                    if (count > 0)
+                    {
+                    }
+                    break;
+                case "Monday_Third":
+                   count = SelectedLessonItem.Other
+                        .Count(x => x.Monday.First.Subject == SelectedLessonItem.Current.Monday.First.Subject);
+                    
+                    break;
+                // Add more cases for additional groups
+            }
             
         }
-
+       
     }
     public class LessonOptions
     {

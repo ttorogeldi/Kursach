@@ -209,6 +209,52 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2144,6 +2190,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -4083,6 +4175,52 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -6018,6 +6156,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7957,6 +8141,52 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9892,6 +10122,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11831,6 +12107,52 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13768,6 +14090,52 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15691,6 +16059,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -15886,6 +16300,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -16083,6 +16543,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16278,6 +16784,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -16475,6 +17027,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -16670,6 +17268,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -16867,6 +17511,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -17062,6 +17752,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -17259,6 +17995,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17454,6 +18236,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -17651,6 +18479,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -17846,6 +18720,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -18043,6 +18963,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -18238,6 +19204,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -18435,6 +19447,52 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18630,6 +19688,52 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -18954,6 +20058,52 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -19248,6 +20398,52 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -19544,6 +20740,52 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19838,6 +21080,52 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -20134,6 +21422,52 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -20429,6 +21763,52 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -20723,6 +22103,52 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     },
@@ -21024,6 +22450,52 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Syncfusion.Licensing/25.1.40": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Popup/25.1.40": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "25.1.40"
+        },
+        "compile": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "resource": {
+          "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll": {
+            "locale": "en-US"
+          }
         }
       }
     }
@@ -22309,6 +23781,133 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Syncfusion.Licensing/25.1.40": {
+      "sha512": "7JTbApWFw1hIsdKPZnNeBmhCwgw2YteoIj6jIO+7MqO0H7Vn1mZiwfPdk9/xUTiphGamebH7s0i8xCh6pz4dBw==",
+      "type": "package",
+      "path": "syncfusion.licensing/25.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.25.1.40.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Core/25.1.40": {
+      "sha512": "DN6ajalKCpkm6t3MxBRZWnfg1N2fTz8z4PFCbHT3juwURiUrCHa+og8qu3s1pfZh8OW5wQrSbDgJiWqck2m7rg==",
+      "type": "package",
+      "path": "syncfusion.maui.core/25.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net8.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.25.1.40.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Popup/25.1.40": {
+      "sha512": "1u4DvzgqvE5sFj6fOWSJtRyWfWIBk5HtkCUF72kvRI4rE+OhANuffo75ZCN+b6T/Hv7rYrsYzHNSVlmfjPNQJg==",
+      "type": "package",
+      "path": "syncfusion.maui.popup/25.1.40",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-android33.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net7.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Popup.dll",
+        "lib/net7.0/Syncfusion.Maui.Popup.xml",
+        "lib/net7.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-android34.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-ios16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-maccatalyst16.1/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0-windows10.0.19041.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "lib/net8.0/Syncfusion.Maui.Popup.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Popup.dll",
+        "lib/net8.0/Syncfusion.Maui.Popup.xml",
+        "lib/net8.0/en-US/Syncfusion.Maui.Popup.resources.dll",
+        "syncfusion.maui.popup.25.1.40.nupkg.sha512",
+        "syncfusion.maui.popup.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24318,6 +25917,7 @@
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
       "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Syncfusion.Maui.Popup >= 25.1.40",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -24337,7 +25937,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
-      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Syncfusion.Maui.Popup >= 25.1.40"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24346,7 +25947,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
-      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1"
+      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
+      "Syncfusion.Maui.Popup >= 25.1.40"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24355,7 +25957,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.101",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.101",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Syncfusion.Maui.Popup >= 25.1.40"
     ]
   },
   "packageFolders": {
@@ -24462,6 +26065,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Popup": {
+            "target": "Package",
+            "version": "[25.1.40, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -24633,6 +26240,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Popup": {
+            "target": "Package",
+            "version": "[25.1.40, )"
           }
         },
         "imports": [
@@ -24737,6 +26348,10 @@
             "target": "Package",
             "version": "[7.0.100-1.23211.1, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Popup": {
+            "target": "Package",
+            "version": "[25.1.40, )"
           }
         },
         "imports": [
@@ -24840,6 +26455,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Maui.Popup": {
+            "target": "Package",
+            "version": "[25.1.40, )"
           }
         },
         "imports": [

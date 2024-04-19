@@ -15,27 +15,7 @@ namespace MauiApp2
 
             Pi_20_1 = new Days
             {
-                Monday = new Schedule
-                {
-                    First = new Discipline
-                    {
-                        TimeRange = "08:00 - 09:20",
-                        Subject = 1,
-                        Teacher = 1
-                    },
-                    Second = new Discipline
-                    {
-                        TimeRange = "09:20 - 10:40",
-                        Subject = 1,
-                        Teacher = 1
-                    },
-                    Third = new Discipline
-                    {
-                        TimeRange = "10:40 - 12:00",
-                        Subject = 1,
-                        Teacher = 1
-                    }
-                }
+                Monday = new Schedule {}
             };
             
             Pi_20_2 = new Days
@@ -44,21 +24,12 @@ namespace MauiApp2
                 {
                     First = new Discipline
                     {
-                        TimeRange = "08:00 - 09:20",
-                        Subject = 2,
-                        Teacher = 3
                     },
                     Second = new Discipline
                     {
-                        TimeRange = "09:20 - 10:40",
-                        Subject = 2,
-                        Teacher = 2
                     },
                     Third = new Discipline
                     {
-                        TimeRange = "10:40 - 12:00",
-                        Subject = 1,
-                        Teacher = 1
                     }
                 }
             };
@@ -69,21 +40,12 @@ namespace MauiApp2
                 {
                     First = new Discipline
                     {
-                        TimeRange = "08:00 - 09:20",
-                        Subject = 1,
-                        Teacher = 1
                     },
                     Second = new Discipline
                     {
-                        TimeRange = "09:20 - 10:40",
-                        Subject = 1,
-                        Teacher = 1
                     },
                     Third = new Discipline
                     {
-                        TimeRange = "10:40 - 12:00",
-                        Subject = 1,
-                        Teacher = 1
                     }
                 }
             };

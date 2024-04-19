@@ -685,11 +685,26 @@
     <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\syncfusion.licensing\25.1.40\lib\net7.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\syncfusion.maui.core\25.1.40\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\syncfusion.maui.popup\25.1.40\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Popup.dll">
+      <PackagePath>Syncfusion.Maui.Popup.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\syncfusion.maui.popup\25.1.40\lib\net7.0-windows10.0.19041.0\en-US\Syncfusion.Maui.Popup.resources.dll">
+      <PackagePath>en-US\Syncfusion.Maui.Popup.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\syncfusion.maui.core\25.1.40\lib\net7.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+      <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ttologonov\.nuget\packages\microsoft.maui.controls.ref.win\7.0.101\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
